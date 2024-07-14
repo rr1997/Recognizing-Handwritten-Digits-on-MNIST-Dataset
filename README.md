@@ -11,7 +11,7 @@ Implementation of K-Nearest Neighbors classifier from scratch for image classifi
 
 In the MNIST dataset, each sample is a picture of a handwritten digit. Each sample includes 28x28 grey-scale pixel values as features and a categorical class label out of 0-9. For more details, please refer to Dr. Yann Lecun’s page (http://yann.lecun.com/exdb/mnist/). The dataset has been imported using the sklearn.dataset package.
 
-![MNIST Dataset](https://upload.wikimedia.org/wikipedia/commons/2/2a/MnistExamples.png)
+![MNIST Dataset]([https://upload.wikimedia.org/wikipedia/commons/2/2a/MnistExamples.png](https://www.google.com/search?q=mnist+dataset+images&sca_esv=954b519294f2b658&sca_upv=1&rlz=1C1CHBF_enIN1019IN1019&sxsrf=ADLYWIIxF3d8yPEhYwPitC90BBqbbQGx8g%3A1720978719092&ei=Hw2UZoKuBYm74-EPmsyAiAI&oq=mnist+dataset+ima&gs_lp=Egxnd3Mtd2l6LXNlcnAiEW1uaXN0IGRhdGFzZXQgaW1hKgIIATIKECMYgAQYJxiKBTILEAAYgAQYkQIYigUyCxAAGIAEGJECGIoFMgsQABiABBiRAhiKBTIGEAAYFhgeMgYQABgWGB4yCBAAGBYYHhgPMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFSNoYUKQBWKoPcAF4AZABAJgBeaABuQOqAQMwLjS4AQPIAQD4AQGYAgWgAtoDwgIHECMYsAMYJ8ICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIFEAAYgATCAgoQABiABBgUGIcCmAMAiAYBkAYKkgcDMS40oAedHw&sclient=gws-wiz-serp#imgrc=Xe5QCtIozPkSNM&imgdii=3F5_2NNe6lmbgM))
 
 ## Implementation
 
