@@ -24,38 +24,38 @@ I have implemented the classifier with the L2-norm (Euclidean distance) as the d
 - `notebooks/`: Contains Jupyter notebooks for data preprocessing, model training, and evaluation.
 - `src/`: Contains the source code for data preprocessing, model training, and evaluation.
 
-## Installation
 
-To run this project, you need to have Python installed. You can install the required dependencies using pip:
-
-```bash
-pip install -r requirements.txt
-
-Usage
-Data Preprocessing:
-
-Navigate to the notebooks/ directory and open Data_Preprocessing.ipynb.
-Run the notebook to preprocess the data.
-Model Training:
-
-Open Model_Training.ipynb in the notebooks/ directory.
-Run the notebook to train the KNN model.
-Model Evaluation:
-
-Open Model_Evaluation.ipynb in the notebooks/ directory.
-Run the notebook to evaluate the trained model.
-Alternatively, you can run the Python scripts in the src/ directory:
-
-python src/data_preprocessing.py
-python src/model_training.py
-python src/model_evaluation.py
-
-Model
-The model used in this project is K-Nearest Neighbors (KNN). KNN is a simple, instance-based learning algorithm that assigns a class to a new sample based on the majority class among its k-nearest neighbors.
+Key Points
+Algorithm: k-Nearest Neighbors (k-NN) implemented from scratch.
+Dataset: MNIST dataset with 70,000 images of handwritten digits.
+Features: Each image is 28x28 pixels in grayscale.
+Conclusion
+The k-NN algorithm effectively classifies handwritten digits from the MNIST dataset with high accuracy. Despite being a simple and interpretable method, k-NN demonstrates robust performance in digit recognition tasks.
 
 Results
-The model achieves an accuracy of approximately 97% on the test set. Below are some example predictions:
+Training Set: 6,000 samples from the original MNIST training set.
+Test Set: 1,000 samples from the original MNIST test set.
+Accuracy: Approximately 97%.
+The k-NN classifier achieved an accuracy of around 97% on the test set, indicating its capability to accurately recognize handwritten digits.
 
+Comparison
+Support Vector Machines (SVM):
+
+Accuracy: ~98%
+Pros: Good generalization, effective in high-dimensional spaces.
+Cons: Computationally intensive for large datasets.
+Convolutional Neural Networks (CNN):
+
+Accuracy: ~99.7%
+Pros: State-of-the-art performance, captures spatial hierarchies in images.
+Cons: Requires significant computational resources and longer training times.
+Random Forests:
+
+Accuracy: ~96-97%
+Pros: Robust to overfitting, handles large datasets well.
+Cons: Less interpretable, slower in prediction for large number of trees.
+Conclusion
+While k-NN is not the most accurate algorithm compared to advanced methods like CNNs, its simplicity, interpretability, and ease of implementation make it a valuable tool for quick and reasonably accurate handwritten digit recognition. For applications requiring higher accuracy, more sophisticated models like CNNs are recommended despite their higher computational cost. This comparison highlights the importance of selecting the appropriate model based on specific application requirements and constraints.
 
 
 Contributing
