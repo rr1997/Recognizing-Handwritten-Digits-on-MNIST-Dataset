@@ -25,20 +25,21 @@ I have implemented the classifier with the L2-norm (Euclidean distance) as the d
 - `src/`: Contains the source code for data preprocessing, model training, and evaluation.
 
 
-Key Points
+#Key Points
 Algorithm: k-Nearest Neighbors (k-NN) implemented from scratch.
 Dataset: MNIST dataset with 70,000 images of handwritten digits.
 Features: Each image is 28x28 pixels in grayscale.
-Conclusion
+
+#Conclusion
 The k-NN algorithm effectively classifies handwritten digits from the MNIST dataset with high accuracy. Despite being a simple and interpretable method, k-NN demonstrates robust performance in digit recognition tasks.
 
-Results
+#Results
 Training Set: 6,000 samples from the original MNIST training set.
 Test Set: 1,000 samples from the original MNIST test set.
 Accuracy: Approximately 97%.
 The k-NN classifier achieved an accuracy of around 97% on the test set, indicating its capability to accurately recognize handwritten digits.
 
-Comparison
+#Comparison
 Support Vector Machines (SVM):
 
 Accuracy: ~98%
@@ -56,7 +57,3 @@ Pros: Robust to overfitting, handles large datasets well.
 Cons: Less interpretable, slower in prediction for large number of trees.
 Conclusion
 While k-NN is not the most accurate algorithm compared to advanced methods like CNNs, its simplicity, interpretability, and ease of implementation make it a valuable tool for quick and reasonably accurate handwritten digit recognition. For applications requiring higher accuracy, more sophisticated models like CNNs are recommended despite their higher computational cost. This comparison highlights the importance of selecting the appropriate model based on specific application requirements and constraints.
-
-
-Contributing
-Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request.
