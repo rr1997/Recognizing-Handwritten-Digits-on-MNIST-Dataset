@@ -19,26 +19,6 @@ I have implemented the classifier with the L2-norm (Euclidean distance) as the d
 
 ## Project Structure
 
-The project is organized as follows:
-
-Recognizing-Handwritten-Digits-on-MNIST-Dataset/
-├── data/
-│ ├── mnist_train.csv
-│ ├── mnist_test.csv
-├── models/
-│ ├── knn_model.pkl
-├── notebooks/
-│ ├── Data_Preprocessing.ipynb
-│ ├── Model_Training.ipynb
-│ ├── Model_Evaluation.ipynb
-├── src/
-│ ├── data_preprocessing.py
-│ ├── model_training.py
-│ ├── model_evaluation.py
-├── README.md
-├── requirements.txt
-
-
 - `data/`: Contains the dataset files.
 - `models/`: Stores the trained model.
 - `notebooks/`: Contains Jupyter notebooks for data preprocessing, model training, and evaluation.
